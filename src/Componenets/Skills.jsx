@@ -39,7 +39,7 @@ const Skills = () => {
                     </div>
                     <ul>
                         {skills.map((skill, index) => (
-                            <li key={skill.id} className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${index * 45}`}>
+                            <li key={index} className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${index * 45}`}>
                                 <div className={`hover:*:opacity-100 relative top-10 flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-[#444] rounded-full hover:-top-0.25 hover:not-first:opacity-100 -rotate-${index * 45}`} id="li-img">
                                     <img src={skill.icon} alt="" width={skill.width} height={skill.height} className="rounded-full hover:w-[4rem]" />
                                     <div className=" text-gray-300 absolute -top-12 text-[15px] opacity-0">{skill.title}</div>
