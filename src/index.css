@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+body {
+    color: white;
+    overflow-x: hidden;
+    background: black;
+    border-color: #3b3b3b;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+* {
+    scroll-behavior: smooth;
+}
+
+.screen-max-width {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    position: relative;
+    max-width: 1120px;
+}
+
+@layer utilities{
+    .h1{
+        @apply text-[#86868b] text-center lg:text-6xl md:text-5xl text-3xl font-medium opacity-0 translate-y-[100px] mt-6 mb-26 
+    }
+    .container{
+        @apply max-w-[77.5rem] mx-auto px-5 md:px-10 xl:max-w-[87.5rem]
+    }
+}
