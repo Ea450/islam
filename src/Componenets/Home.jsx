@@ -1,5 +1,5 @@
 import { useGSAP } from '@gsap/react'
-import home from '../../public/Home.jpg'
+import home from '/Home.jpg'
 import gsap from 'gsap'
 const Home = () => {
 

@@ -28,7 +28,7 @@ const Projects = () => {
             <h1 className="h1 mb-25" id="project-title">My Projects</h1>
             <div className="flex flex-wrap gap-10 mb-10 ">
                 {projects.map((pro) => (
-                    <div className="block relative p-0.5 bg-no-repeat md:max-w-[385px] bg-[length:100%_100%]"
+                    <div className="relative p-0.5 bg-no-repeat md:max-w-[350px] bg-[length:100%_100%]"
                         style={{ backgroundImage: `url(${pro.backgroundUrl})` }}
                         key={pro.title}>
                         <div className="relative z-2 flex flex-col min-h-[350px] p-[38px] pointer-events-none">

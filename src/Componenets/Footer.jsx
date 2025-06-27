@@ -2,7 +2,7 @@ import { FaFacebookF, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa"
 
 const Footer = () => {
     return (
-        <div className="absolute p-8 border-t-1 w-full mt-5 md:mt-21 lg:-mt-6 xl:-mt-12">
+        <div className="absolute p-8 border-t-1 w-full mt-8 lg:-mt-19 xl:-mt-8">
             <div className="flex justify-between items-center">
                 <h1 className='flex items-center text-blue-400 font-semibold text-2xl'>Eslam</h1>
                 <div className="flex gap-2 md:gap-8 mt-2">

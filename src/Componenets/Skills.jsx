@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
-import brain from '../../public/brainwave.svg'
+import brain from '/brainwave.svg'
 import { skills } from '../constants'
 
 const Skills = () => {

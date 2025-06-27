@@ -7,16 +7,17 @@ import bootstrap from '/bootstrap.png'
 import git from '/git-logo.webp'
 import next from '/next.jpeg'
 import brainwave from '/videos/Brainwave.mp4'
+import easyShop from '/videos/easyshop.mp4'
+import travelAgency from '/videos/travelagency.mp4'
+import interviewplatform from '/videos/interviewplatform.mp4'
 import iphone from '/videos/iphone.mp4'
-import realstate from '/videos/realstate.mp4'
-import todo from '/videos/todo.mp4'
-import netflix from '/videos/netflix.mp4'
 import brainwaveBG from '/background/Brainwave.png'
-import netflixBG from '../../public/background/netflix.jpg'
-import todoBG from '../../public/background/todo.jpg'
-import realstateBG from '../../public/background/realState.jpg'
-import appleBG from '../../public/background/apple.jpg'
-import interview from '../../public/background/Interview.png'
+import easyshop from '/background/easyshop.png'
+import converso from '/background/converso.svg'
+import travelagency from '/background/travelagency.webp'
+
+import appleBG from '/background/apple.jpg'
+import interview from '/background/Interview.png'
 
 
 
@@ -109,44 +110,71 @@ export const skills = [
 ];
 export const highlightVideos = [
     {
-        id: 1,
+        id: 2,
         video: brainwave,
         videoDuration: 3.5,
     },
     {
-        id: 2,
-        video: realstate,
-        videoDuration: 3,
+        id: 1,
+        video: easyShop,
+        videoDuration: 2,
     },
     {
         id: 3,
-        video: iphone,
-        videoDuration: 4.4,
+        video: travelAgency,
+        videoDuration: 3.5,
     },
     {
         id: 4,
-        video: todo,
-        videoDuration: 3,
+        video: interviewplatform,
+        videoDuration: 2,
     },
     {
         id: 5,
-        video: netflix,
-        videoDuration: 3.63,
+        video: iphone,
+        videoDuration: 3,
     },
+
 ];
 export const projects = [
     {
+        title: "EasyShop",
+        img: easyshop,
+        backgroundUrl: '/card-3.svg',
+        text: "The EasyShop site is an e-commerce platform featuring multiple product categories like laptops, shoes, earbuds, and more—all curated in a clean. Branding is modern and minimal with a focus on usability—clean typography, clear pricing, “Add To Cart” buttons, responsive layout",
+        link: "https://easy-shop-zibs.vercel.app/",
+        light: false,
+    },
+    {
+        title: "Converso",
+        img: converso,
+        backgroundUrl: '/card-1.svg',
+        text: "Converso is a modern chat app UI with a clean and responsive design. It features real-time messaging, typing indicators, and light/dark modes. The interface includes a contact list, message history, and quick-reply options for a smooth user experience.",
+        link: "https://converso-kappa.vercel.app/",
+        light: false,
+    },
+    {
+
         title: "Interview Platform",
         img: interview,
-        backgroundUrl: '../../public/card-2.svg',
+        backgroundUrl: '/card-2.svg',
         text: "​TThe website is an AI-powered interview prep platform that offers personalized feedback, mock interviews, and custom practice questions. It helps users improve their interview skills with real-time analytics and answer refinement tools.",
         link: "https://interview-platform-zbo2.vercel.app/",
         light: true,
     },
     {
+        title: "Travel Agency",
+        img: travelagency,
+        backgroundUrl: '/card-3.svg',
+        text: "The website is a modern travel agency landing page offering vacation packages and tours. It features a clean design with destination highlights, customer reviews, and booking options. The layout is responsive and user-friendly, focusing on inspiring travel experiences. ",
+        link: "https://travel-agency-pi5a.vercel.app/",
+        light: false,
+    },
+
+    {
         title: "BrainWave",
         img: brainwaveBG,
-        backgroundUrl: '../../public/card-1.svg',
+        backgroundUrl: '/card-1.svg',
         text: "​The Brainwave web app is an AI-powered productivity tool that leverages natural language processing to understand user queries and provide accurate ",
         link: "https://brainwave-virid-six.vercel.app/",
         light: false,
@@ -154,33 +182,10 @@ export const projects = [
     {
         title: "Apple Clone",
         img: appleBG,
-        backgroundUrl: '../../public/card-2.svg',
+        backgroundUrl: '/card-2.svg',
         text: "The Apple Clone website is a front-end replica of Apple's official homepage, showcasing products like the iPhone, MacBook, and Apple Watch with sleek visuals and promotional banners.  ",
         link: "https://appleclone-liart.vercel.app/",
         light: true,
     },
-    {
-        title: "Netflix Clone",
-        img: netflixBG,
-        backgroundUrl: '../../public/card-3.svg',
-        text: "Netflix clone showcasing a modern UI with featured content banners and categorized movie carousels. Built with React and styled using Tailwind CSS, it offers a responsive design that emulates the look and feel of the original service. ",
-        link: "https://netflix-clone-pied-tau.vercel.app/",
-        light: false,
-    },
-    {
-        title: "RealState Clone",
-        img: realstateBG,
-        backgroundUrl: '../../public/card-4.svg',
-        text: "​The Real State website is a modern real estate platform showing visuals and a user-friendly interface. Built using Next.js and Tailwind CSS ",
-        link: "https://real-state-cyan-alpha.vercel.app/",
-        light: false,
-    },
-    {
-        title: "Todo App",
-        img: todoBG,
-        backgroundUrl: '../../public/card-5.svg',
-        text: "​The Todo App is a minimalist task management tool that allows users to create, edit, and track their daily tasks efficiently. Built with modern web technologies, it offers a clean and responsive interface for seamless productivity.",
-        link: "https://todo-mu-two-51.vercel.app/",
-        light: false,
-    },
+
 ]

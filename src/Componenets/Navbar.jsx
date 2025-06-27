@@ -1,5 +1,5 @@
 import { BiMenuAltRight } from 'react-icons/bi'
-import github from '../../public/github.png'
+import github from '/github.png'
 import { navIcons } from '../constants'
 import { useState } from 'react'
 import NavMenu from './NavMenu'

@@ -3,9 +3,9 @@ import { highlightVideos } from "../constants"
 import { useState, useEffect } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import playimg from '../../public/play.svg';
-import pauseimg from '../../public/pause.svg';
-import replayimg from '../../public/replay.svg';
+import playimg from '/play.svg';
+import pauseimg from '/pause.svg';
+import replayimg from '/replay.svg';
 
 
 
