@@ -122,7 +122,7 @@ export const highlightVideos = [
     {
         id: 3,
         video: travelAgency,
-        videoDuration: 3.5,
+        videoDuration: 2.8,
     },
     {
         id: 4,

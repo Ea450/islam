@@ -10,7 +10,7 @@ const Skills = () => {
                 opacity: 1, y: 50, duration: 1,
                 scrollTrigger: {
                     trigger: '#title',
-                    toggleActions: 'restart reverse restart reverse',
+                    toggleActions: 'restart rev  erse restart reverse',
                     start: 'bottom 90%'
                 }
             },
@@ -28,7 +28,7 @@ const Skills = () => {
         )
     })
     return (
-        <div className="w-full h-[600px]" id="skills">
+        <div className="w-full h-[500px] sm:h-[600px]" id="skills">
             <h1 className="h1 mb-5 " id="title">My Skills</h1>
             <div className="relative flex w-[300px] md:w-[400px] aspect-square border border-[#252134] rounded-full -translate-x-1/2 scale:75 md:scale-100 left-1/2 mt-20">
                 <div className="flex w-50 md:w-70 aspect-square border border-[#252134] m-auto rounded-full">
@@ -41,7 +41,7 @@ const Skills = () => {
                         {skills.map((skill, index) => (
                             <li key={index} className='absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom' style={{ transform: `rotate(${skill.id * 45}deg)` }}>
                                 <div className={`hover:*:opacity-100 relative top-10 flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-[#444] rounded-full hover:-top-0.25 hover:not-first:opacity-100`} id="li-img" style={{ transform: `rotate(-${skill.id * 45}deg)` }}>
-                                    <img src={skill.icon} alt="" width={skill.width} height={skill.height} className="rounded-full hover:w-[4rem]" />
+                                    <img src={skill.icon} alt={skill.title} width={skill.width} height={skill.height} className="rounded-full hover:w-[4rem]" />
                                     <div className=" text-gray-300 absolute -top-12 text-[15px] opacity-0">{skill.title}</div>
                                 </div>
                             </li>
