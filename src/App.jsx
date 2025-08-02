@@ -1,16 +1,13 @@
-import ContactMe from "./Componenets/ContactMe"
-import Footer from "./Componenets/Footer"
-import Highlights from "./Componenets/Highlights"
-import Home from "./Componenets/Home"
-import Navbar from "./Componenets/Navbar"
-import Projects from "./Componenets/Projects"
-import Skills from "./Componenets/Skills"
-
-
+import ContactMe from "./Componenets/ContactMe";
+import CV from "./Componenets/CV";
+import Footer from "./Componenets/Footer";
+import Highlights from "./Componenets/Highlights";
+import Home from "./Componenets/Home";
+import Navbar from "./Componenets/Navbar";
+import Projects from "./Componenets/Projects";
+import Skills from "./Componenets/Skills";
 
 function App() {
-
-
   return (
     <>
       <div className="container relative">
@@ -23,7 +20,7 @@ function App() {
       <ContactMe />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
