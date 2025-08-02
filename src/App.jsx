@@ -1,5 +1,4 @@
 import ContactMe from "./Componenets/ContactMe";
-import CV from "./Componenets/CV";
 import Footer from "./Componenets/Footer";
 import Highlights from "./Componenets/Highlights";
 import Home from "./Componenets/Home";
