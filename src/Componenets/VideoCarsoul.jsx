@@ -138,12 +138,12 @@ const VideoCarsoul = () => {
   };
 
   return (
-    <>
-      <div className="flex items-center">
+    <div className="absolute top-0 left-0 w-full h-full">
+      <div className="flex items-center overflow-hidden ">
         {highlightVideos.map((list, i) => (
           <div key={i} id="slider" className="sm:pr-20 pr-10">
             <div className="relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh]">
-              <div className="w-full h-full flex-center rounded-3xl overflow-hidden bg-black">
+              <div className="flex-center rounded-3xl overflow-hidden bg-black">
                 <video
                   id="video"
                   playsInline={true}
@@ -199,7 +199,7 @@ const VideoCarsoul = () => {
           />
         </button>
       </div>
-    </>
+    </div>
   );
 };
 

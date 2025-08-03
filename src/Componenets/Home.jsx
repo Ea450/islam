@@ -28,7 +28,7 @@ const Home = () => {
             <h2>
               Email :{" "}
               <span className="text-[#86868b] ml-17 md:ml-7">
-                ea450424@gmail.com
+                eslamaahmed999@gmail.com
               </span>
             </h2>
             <h2>
