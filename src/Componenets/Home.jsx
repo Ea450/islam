@@ -37,7 +37,7 @@ const Home = () => {
           </div>
           <div className="text-center mt-4">
             <a
-              href="/CV.pdf"
+              href="/EslamCV.pdf"
               className="px-4 py-2 rounded-2xl bg-blue-400"
               target="_blank"
             >
